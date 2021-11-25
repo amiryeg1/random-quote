@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/random-quote/static/css/main.3433e0a2.chunk.css",
-    "main.js": "/random-quote/static/js/main.dbd39804.chunk.js",
-    "main.js.map": "/random-quote/static/js/main.dbd39804.chunk.js.map",
-    "runtime-main.js": "/random-quote/static/js/runtime-main.fe417dac.js",
-    "runtime-main.js.map": "/random-quote/static/js/runtime-main.fe417dac.js.map",
-    "static/js/2.747f392a.chunk.js": "/random-quote/static/js/2.747f392a.chunk.js",
-    "static/js/2.747f392a.chunk.js.map": "/random-quote/static/js/2.747f392a.chunk.js.map",
-    "static/js/3.d9eca3d6.chunk.js": "/random-quote/static/js/3.d9eca3d6.chunk.js",
-    "static/js/3.d9eca3d6.chunk.js.map": "/random-quote/static/js/3.d9eca3d6.chunk.js.map",
+    "main.css": "/random-quote/static/css/main.418c846a.chunk.css",
+    "main.js": "/random-quote/static/js/main.3e2fce90.chunk.js",
+    "main.js.map": "/random-quote/static/js/main.3e2fce90.chunk.js.map",
+    "runtime-main.js": "/random-quote/static/js/runtime-main.679cfec9.js",
+    "runtime-main.js.map": "/random-quote/static/js/runtime-main.679cfec9.js.map",
+    "static/js/2.a0e25fe4.chunk.js": "/random-quote/static/js/2.a0e25fe4.chunk.js",
+    "static/js/2.a0e25fe4.chunk.js.map": "/random-quote/static/js/2.a0e25fe4.chunk.js.map",
+    "static/js/3.b72b98d8.chunk.js": "/random-quote/static/js/3.b72b98d8.chunk.js",
+    "static/js/3.b72b98d8.chunk.js.map": "/random-quote/static/js/3.b72b98d8.chunk.js.map",
     "index.html": "/random-quote/index.html",
-    "static/css/main.3433e0a2.chunk.css.map": "/random-quote/static/css/main.3433e0a2.chunk.css.map",
-    "static/js/2.747f392a.chunk.js.LICENSE.txt": "/random-quote/static/js/2.747f392a.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/random-quote/static/media/logo.6ce24c58.svg"
+    "static/css/main.418c846a.chunk.css.map": "/random-quote/static/css/main.418c846a.chunk.css.map",
+    "static/js/2.a0e25fe4.chunk.js.LICENSE.txt": "/random-quote/static/js/2.a0e25fe4.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/random-quote/static/media/background.ca0db7b1.jpg",
+    "static/media/twitter (1).66769e0a.png": "/random-quote/static/media/twitter (1).66769e0a.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.fe417dac.js",
-    "static/js/2.747f392a.chunk.js",
-    "static/css/main.3433e0a2.chunk.css",
-    "static/js/main.dbd39804.chunk.js"
+    "static/js/runtime-main.679cfec9.js",
+    "static/js/2.a0e25fe4.chunk.js",
+    "static/css/main.418c846a.chunk.css",
+    "static/js/main.3e2fce90.chunk.js"
   ]
 }
