@@ -1,0 +1,62 @@
+.text-box {
+  color: azure;
+  font-size: 24px;
+  font-style: italic;
+  font-family: Times, monospace;
+  margin: 0 auto;
+  background: #ffa600;
+  width: 45em;
+  height: fit-content;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  border-radius: 100px;
+  padding: 10px;
+}
+
+.button {
+  font: inherit;
+  font-size: 24px;
+  border: 1px solid #4f005f;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  padding: 0.25rem 1rem;
+}
+
+.new-quote {
+  background: #27ed00;
+  border-color: #27ed00;
+}
+.new-quote:hover,
+.new-quote:active {
+  background: #089927;
+  border-color: #089927;
+}
+
+.twitter {
+  background: #00aced;
+  border-color: #00aced;
+}
+.twitter:hover,
+.twitter:active {
+  background: #276691;
+  border-color: #276691;
+}
+.text-box p {
+  font: bold;
+  color: #ffffff;
+  margin: 0 auto;
+  width: 35em;
+}
+
+@media only screen and (max-width: 500px) {
+  .text-box {
+    width: 90%;
+    font-size: 20px;
+
+  }
+  .text-box p {
+    width: 80%;
+  }
+  
+}

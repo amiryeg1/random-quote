@@ -1,23 +1,26 @@
-import logo from "./logo.svg";
+import React from "react";
 import "./App.css";
-import QouteBox from "./components/UI/qoute_box";
-import NewQuote from "./components/new_quote";
-import { useSelector } from "react-redux";
-
+import QouteBox from "./components/qoute_box";
+import { motion } from "framer-motion"
 function App() {
-  const quote = useSelector((state) => state.quotes.value.text);
-  const author = useSelector((state) => state.quotes.value.author);
+ 
   return (
-    <div className="App">
-      <QouteBox>
-        <p id="text">{quote}</p> <br />
-        <span id="author">{author}</span> <br />
-        <a id="tweet-quote" href="twitter.com/intent/tweet" target="_blank">
-          <button>tweet quote</button>
-        </a>
-        <NewQuote />
-      </QouteBox>
-    </div>
+    <React.Fragment>
+      <motion.div
+      className="title"
+      animate={{opacity:[.3,1]}}
+      transition={{yoyo:Infinity,duration:.8}}
+      >
+        <p>quote generator</p></motion.div>
+    <motion.div className="App"
+    initial={{y: "100vh"}}
+    animate={{y: 0}}
+    transition={{duration:2, stiffness:200, type: "spring"}}
+    >
+      
+      <QouteBox />
+    </motion.div>
+    </React.Fragment>
   );
 }
 
